@@ -79,8 +79,7 @@ const checkWinner = () =>{
 
         if(pos1 !="" && pos2 !="" && pos3 !=""){
             if(pos1===pos2 && pos2===pos3){
-                // alert(`Congratlutaions!! ${pos1} Wins`);
-                showWinner(pos1);
+                showWinner(pos1); 
             }
         }
     }
